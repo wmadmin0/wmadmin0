@@ -1,0 +1,25 @@
+<div class="gallery-container">
+
+  <mat-card class="gallery-card" *ngFor="let item of items">
+
+    <img mat-card-image [src]="item.image" [alt]="item.title">
+
+    <mat-card-content>
+      <h2>{{ item.title }}</h2>
+      <p>{{ item.description }}</p>
+    </mat-card-content>
+
+    <mat-card-actions>
+      <a
+        mat-button
+        color="primary"
+        [href]="item.link"
+        target="_blank"
+        rel="noopener"
+      >
+        Ver publicação
+      </a>
+    </mat-card-actions>
+
+  </mat-card>
+</div>

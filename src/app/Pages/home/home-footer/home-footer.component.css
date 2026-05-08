@@ -1,0 +1,57 @@
+.app-footer {
+  background: #121212;
+  color: #e0e0e0;
+  padding: 2rem 1rem 1rem;
+  font-size: 14px;
+
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .footer-section {
+    flex: 1 1 250px;
+
+    h2, h3 {
+      color: #ffffff;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      color: #bdbdbd;
+    }
+
+    a {
+      color: #90caf9;
+      text-decoration: none;
+      margin: 0.25rem 0;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    button {
+      margin-right: 0.5rem;
+      color: #90caf9;
+    }
+  }
+
+  .footer-bottom {
+    border-top: 1px solid #2c2c2c;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 13px;
+    color: #9e9e9e;
+  }
+}
+.crafty-girls-regular {
+  font-family: "Crafty Girls", cursive;
+  font-weight: 400;
+  font-style: normal;
+}

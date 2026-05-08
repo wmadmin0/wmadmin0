@@ -1,0 +1,12 @@
+.example-spacer{
+  flex: 1 1 auto;
+}
+mat-toolbar {
+  background: #000000;
+  color: #ffffff;
+}
+.crafty-girls-regular {
+  font-family: "Crafty Girls", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
